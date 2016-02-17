@@ -8,7 +8,7 @@ module.exports = (function() {
 
     constructor(db) {
       super(db);
-      this.id = 2016021706385151;
+      this.id = 2016021706560569;
     }
 
     up() {

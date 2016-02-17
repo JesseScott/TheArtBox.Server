@@ -32,7 +32,6 @@ module.exports = (function() {
   /* generator: begin imports */
 
   const V1ArticlesController = Nodal.require('app/controllers/v1/articles_controller.js');
-  const V1MediaController = Nodal.require('app/controllers/v1/media_controller.js');
 
   /* generator: end imports */
 
@@ -42,7 +41,6 @@ module.exports = (function() {
   /* generator: begin routes */
 
   router.route('/v1/articles/{id}').use(V1ArticlesController);
-  router.route('/v1/media/{id}').use(V1MediaController);
 
   /* generator: end routes */
 
